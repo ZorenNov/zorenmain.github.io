@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Felfix</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"/>
+    <link rel="icon" href="img/pic3.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--light-slider.css------------->
+<link rel="stylesheet" type="text/css" href="css/lightslider.css">
+<!--Jquery-------------------->
+<script type="text/javascript" src="js/Jquery.js"></script>
+<!--lightslider.js--------------->
+<script type="text/javascript" src="js/lightslider.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><img src="img/pic3.png" class="img__logo">Felfix.Tv</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links">Movies</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links">TV Shows</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#profile" class="navbar__links">Account</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+	</nav>
+
+	<section class="Home-page" id="home">
+		<div class="banner">
+		<video id="slider" autoplay muted loop>
+			<source src="vdo/video1.mp4" type="video/mp4">
+		</video>
+		<div class="vdo-content">
+			<h1>Welcome to felfix</h1>
+			<a href="#Trending"><button class="vdo-btn"><i class="fa fa-play"> Play</i></button></a>
+			<a href="#btn-movies"><button class="vdo-btn"><i class="fa fa-play"> Movies</i></button></a>
+			<a href="#btn-series"><button class="vdo-btn"><i class="fa fa-play"> TV-Shows</i></button></a>
+		</div>
+		<ul class="navigation">
+			<li onclick="videoUrl('vdo/video1.mp4')"><img src="img/img1.jfif"></li>
+			<li onclick="videoUrl('vdo/video2.mp4')"><img src="img/img2.jpg"></li>
+			<li onclick="videoUrl('vdo/video3.mp4')"><img src="img/img3.jpg"></li>
+			<li onclick="videoUrl('vdo/video4.mp4')"><img src="img/img4.jpg"></li>
+		</ul>
+		</div>
+	</section>
+
+	<!-- trending -->
+
+<div class="container" id="Trending">
+			<h1>Trending Now in Felfix.Tv</h1>
+<section class="slider">
+
+	<ul id="autoWidth" class="cs-hidden">
+	<!--1------------------------------------>	
+  <li class="item-a">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/1.jpg" alt="1">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">She's Dating the ganster</a>
+	<span >Trending Number 1</span>
+	</div>
+	</div>
+	
+	</div>		
+</li>
+	<!--2------------------------------------>	
+  <li class="item-b">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/2.jpg" alt="2">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">My Bebe Love</a>
+	<span>Trending Number 2</span>
+	</div>
+	<!--price-------->	
+	</div>
+	
+	</div>		
+</li>
+	<!--3------------------------------------>	
+  <li class="item-c">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/3.jpg" alt="3">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">Suddenly In magic</a>
+	<span>Trending Number 3</span>
+	</div>
+	<!--price-------->
+
+	</div>
+	
+	</div>		
+</li>
+	<!--4------------------------------------>	
+  <li class="item-d">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/4.jpg" alt="4">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">Throphy wife</a>
+	<span>Trending Number 4</span>
+	</div>
+	<!--price-------->	
+	</div>
+	
+	</div>		
+</li>
+	<!--5------------------------------------>	
+  <li class="item-e">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/5.jpg" alt="5">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">You're my Boss</a>
+	<span>Trending Number 5</span>
+	</div>
+	<!--price-------->
+	</div>
+	
+	</div>		
+</li>
+	<!--6------------------------------------>	
+  <li class="item-f">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/6.jpg" alt="6">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">The Significant Other</a>
+	<span>Trending Number 6</span>
+	</div>
+	<!--price-------->	
+	</div>
+	
+	</div>		
+</li>
+	<!--7------------------------------------>	
+  <li class="item-g">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/7.jpg" alt="7">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">Call Center Girl</a>
+	<span>Trending Number 7</span>
+	</div>
+		
+	</div>
+	
+	</div>		
+</li>
+	<!--8------------------------------------>	
+  <li class="item-h">
+<!--box-slider--------------->
+	<div class="box">
+	<!--img-box---------->
+	<div class="slide-img">
+	<img src="img/png/8.jpg" alt="8">
+	<!--overlayer---------->
+	<div class="overlay">
+	<!--buy-btn------>	
+	<a href="#" class="buy-btn">Watch Now</a>	
+	</div>
+	</div>
+	<!--detail-box--------->
+	<div class="detail-box">
+	<!--type-------->
+	<div class="type">
+	<a href="#">Hello, love GoodBye</a>
+	<span>Trending Number 8</span>
+	</div>
+	<!--price-------->	
+	</div>
+	
+	</div>		
+</li>
+  
+</ul>
+	</section>
+
+</div>
+
+<!-- Hottest Movies -->
+
+
+<section id="btn-movies" class="hot-section">
+	<div class="olrayt">
+<h2>Movies</h2>
+<div class="responsive">
+  <div class="gallery">
+  	<a target="_blank" href="#">
+      <img src="img/png/3.jpg" alt="8">	
+  </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+  	<a target="_blank" href="#">
+      <img src="img/png/3.jpg" alt="8">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="img/png/4.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="img/png/6.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="img/png/2.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="img/png/4.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+</section>
+
+<!-- series  -->
+
+<section id="btn-series" class="series-section">
+	<div class="olrayt">
+<h2>Movies</h2>
+<div class="responsive">
+  <div class="gallery">
+  	<a target="_blank" href="#">
+      <img src="img/png/3.jpg" alt="8">	
+  </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+  	<a target="_blank" href="#">
+      <img src="img/png/3.jpg" alt="8">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="img/png/4.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="img/png/6.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="img/png/2.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="img/png/4.jpg">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+</section>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+<!-- profile -->
+    <div class="main" id="profile" >
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+ <div class="profile">
+<div class="card">
+  <img src="img/pic6.png" >
+  <h1>Profile Name</h1>
+  <p class="title">Decription</p>
+  <p>Description</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>More info</button></p>
+</div>
+</div>
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>Your profile in left</h1>
+          <h2>Felfix.Tv</h2>
+          <p>Filipino Movies and Tv-series anywhere  you are</p>
+          <button class="main__btn"><a href="#">lag Out</a></button>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
